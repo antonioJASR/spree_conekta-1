@@ -1,5 +1,5 @@
 source "http://rubygems.org"
-gem 'spree', '~> 3.2.0'
+gem 'spree', '~> 3.2.9'
 gem 'sass-rails', '~> 5.0.0'
 
 # Spree Internationalization https://github.com/spree/spree_i18n
