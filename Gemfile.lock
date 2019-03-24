@@ -412,10 +412,10 @@ DEPENDENCIES
   poltergeist
   pry
   rspec-rails (~> 3.1.0)
-  sass-rails (~> 4.0.3)
+  sass-rails (~> 5.0.0)
   selenium-webdriver
   spork
-  spree (~> 3.0.0.rc2)
+  spree (~> 3.2.0)
   spree_conekta!
   spree_i18n!
   sqlite3
