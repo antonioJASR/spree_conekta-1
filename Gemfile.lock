@@ -29,7 +29,7 @@ PATH
       faraday
       faraday_middleware
       oj (~> 2.14.0)
-      spree (~> 3.0.0.rc2)
+      spree (~> 3.2.0)
       typhoeus
 
 GEM
