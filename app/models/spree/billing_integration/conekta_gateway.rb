@@ -3,10 +3,6 @@ module Spree
      preference :auth_token, :string
      preference :source_method, :string, default: ['card, cash, bank']
 
-     if Rails::VERSION::MAJOR < 4
-       attr_accessible :preferred_auth_token, :preferred_source_method, :gateway_response
-     end
-
      def provider_class
        warn "DEPRECATION WARNING: Spree::BillingIntegration::Conekta will be deprecated, please use BillingIntegration::ConektaGateway::#{preferred_source_method.titleize} instead"
        Spree::Conekta::Provider
